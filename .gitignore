@@ -41,6 +41,12 @@ env/
 .coverage
 htmlcov/
 
-# Local Uploads directory (optional ignore or keep directory empty)
+# PyInstaller
+*.spec
+
+# Local user runtime data
+folders.json
+
+# Local Uploads directory (keep directory placeholder empty)
 uploads/*
 !uploads/.gitkeep
